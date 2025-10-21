@@ -172,6 +172,31 @@ academic_projects: [
       bullets: [
         "ECE Networking"
       ]
+    },
+    {
+      title: "VThacks13",
+      subtitle: "Prompt Composer",
+      description: "Created a project in a weekend with a team of three.",
+      bullets: [
+        "https://github.com/GunderwoodG/vthacks_ai_team2_forked"
+      ]
+    },
+    {
+      title: "Marriott Codefest 2025",
+      subtitle: "Design Based Personalized Travel Experience",
+      description: "Created a project in a weekend with a team of five.",
+      bullets: [
+        "https://github.com/GunderwoodG/code-fest-2025_forked"
+      ]
+    },
+    {
+      title: "Game Jam 2025",
+      subtitle: "Mario's Mayhem Two",
+      description: "Solo dev on a computer vision (CV) controlled retro video game",
+      bullets: [
+        "https://github.com/GunderwoodG/GameJamExternalScript",
+        "Collaborators welcomed!"
+      ]
     }
   ],
 
@@ -224,13 +249,10 @@ academic_projects: [
 
   personal_projects: [
     {
-      title: "Programming & Embedded Systems",
-      subtitle: "Python, C, C++, Arduino, Raspberry Pi, R, MATLAB, HTML, CSS",
+      title: "Underwood Bat Co.",
+      subtitle: "Family Business Est. 2022",
       bullets: [
-        "Built projects using Raspberry Pi and microcontrollers.",
-        "Created a desktop wallpaper rotation algorithm in Python.",
-        "Data analysis and interpretation with R and MATLAB",
-        "AI/ML/CV projects"
+        "Handmade wood baseball bats"
       ]
     }
   ]
