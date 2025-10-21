@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Section from './components/Section'
 import Footer from './components/Footer'
 import data from './data/portfolioData'
+import vtlogo from './assets/vt.webp'
 
 export default function App() {
   return (
@@ -29,7 +30,7 @@ export default function App() {
             </div>
             <div className="mx-auto w-44 h-44 rounded-xl bg-gradient-to-br from-deep-blue to-navy-900 flex items-center justify-center shadow-lg border border-gray-800">
               <img
-              src="src/assets/vt.webp"
+              src={vtlogo}
               alt="vt logo"
               className="w-full h-full object-cover rounded-xl"
               />

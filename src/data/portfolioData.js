@@ -82,6 +82,22 @@ academic_projects: [
         "Designed a functional CPU using FPGA toolchain.",
         "Worked from transistor level design up through registers."
       ]
+    },
+    {
+      title: "Physics (Electricity and Magnetism)",
+      subtitle: "Circuits, Maxwell, Faraday, Lenz, Electromagnetics, and Optics",
+      date: "",
+      bullets: [
+        "Physics is my favorite subject and I hope to puruse a Minor or Master's for it!"
+      ]
+    },
+     {
+      title: "Introduction to ECE",
+      subtitle: "Circuit basics, capacitors, inductors, and labs.",
+      date: "",
+      bullets: [
+        "This class (and the Professor) helped me discover my love for ECE in my first semester."
+      ]
     }
     // Add more academic items below following the same structure.
   ],
@@ -92,15 +108,69 @@ academic_projects: [
       subtitle: "Team Captain & multi-year competitor",
       bullets: [
         "Led mechanical, electrical, and programming subteams.",
-        "Hosted scrimmages and performed outreach to younger students."
+        "Hosted scrimmages and performed outreach to younger students.",
+        "Spread STEM awareness"
       ]
     },
     {
       title: "Boy Scouts — Eagle Scout",
-      subtitle: "Leadership & long-term community project",
+      subtitle: "Leadership & long-term community projects",
       bullets: [
         "Earned Eagle Scout (2023) and multiple national awards.",
         "Planned and executed a multi-week Philmont backpacking High Adventure trip."
+      ]
+    },
+    {
+      title: "Virginia Tech Game Development Club",
+      subtitle: "Video game design.",
+      bullets: [
+        "Learned programming skills nessecary to create captivating video games.",
+        "Learned values outside of techincal skills that make video games stand out."
+      ]
+    },
+    {
+      title: "Pickleball Club",
+      subtitle: "",
+      bullets: [
+        "Weekly practices",
+        "Bi-weekly competitions",
+        "3.06 DUPR Rating"
+      ]
+    },
+    {
+      title: "AI/ML Club",
+      subtitle: "",
+      bullets: [
+        "CNN, GNN, Reinforcment learning, Immitation learning",
+      ]
+    },
+    {
+      title: "Colligate Times",
+      subtitle: "Campus Newpaper",
+      bullets: [
+        "Opinions Contributer",
+        "Notable Article: Life on Campus without Socail Media: https://www.collegiatetimes.com/opinion/campus-life-without-social-media/article_620a7d0e-f338-4237-9559-7d30253ab650.html"
+      ]
+    },
+    {
+      title: "Engineer's Forum Magazine",
+      subtitle: "Campus Magazine",
+      bullets: [
+        "Notable Article: Studying for VT Physics the Right Way."
+      ]
+    },
+    {
+      title: "Entreprenurship Club",
+      subtitle: "",
+      bullets: [
+        "Engaed with fellow Hokie startups."
+      ]
+    },
+    {
+      title: "IEE@VT",
+      subtitle: "",
+      bullets: [
+        "ECE Networking"
       ]
     }
   ],
@@ -115,11 +185,11 @@ academic_projects: [
       ]
     },
     {
-      title: "Baseball — Player & Umpire",
+      title: "Baseball - Player & Coach",
       subtitle: "Longstanding involvement in baseball",
       bullets: [
         "Played recreationally and travel baseball from age 5 to 17.",
-        "Seven years as a baseball umpire; now also a trainer."
+        "Coached for multiple teams starting at age 12."
       ]
     }
   ],
@@ -127,10 +197,12 @@ academic_projects: [
   skills: [
     {
       title: "Programming & Embedded Systems",
-      subtitle: "Python, C, C++, Arduino, Raspberry Pi",
+      subtitle: "Python, C, C++, Arduino, Raspberry Pi, R, MATLAB, HTML, CSS",
       bullets: [
         "Built projects using Raspberry Pi and microcontrollers.",
-        "Created a wallpaper rotation algorithm in Python."
+        "Created a desktop wallpaper rotation algorithm in Python.",
+        "Data analysis and interpretation with R and MATLAB",
+        "AI/ML/CV projects"
       ]
     },
     {
@@ -140,8 +212,29 @@ academic_projects: [
         "Published an article in a fly fishing magazine.",
         "Staff writer for the Collegiate Times and contributor to Engineers Forum."
       ]
+    },
+    {
+      title: "AI/ML/CV",
+      subtitle: "Discovering the world of AI.",
+      bullets: [
+        "Implementing personal projects to be used in real world applications"
+      ]
+    }
+  ],
+
+  personal_projects: [
+    {
+      title: "Programming & Embedded Systems",
+      subtitle: "Python, C, C++, Arduino, Raspberry Pi, R, MATLAB, HTML, CSS",
+      bullets: [
+        "Built projects using Raspberry Pi and microcontrollers.",
+        "Created a desktop wallpaper rotation algorithm in Python.",
+        "Data analysis and interpretation with R and MATLAB",
+        "AI/ML/CV projects"
+      ]
     }
   ]
+
 }
 
 export default data
