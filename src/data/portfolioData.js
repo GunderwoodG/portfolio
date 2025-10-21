@@ -32,9 +32,9 @@ const data = {
 academic_projects: [
     {
       title: "Infrared Radio Teletype",
-      subtitle: "ECE 2804 - Integrated Desing Project",
+      subtitle: "ECE 2804 - Integrated Design Project",
       date: "",
-      description: "Partner based project using Sophomore level ECE skills. My project was to implement an IR Radio Teletype to communicate over 5 feet with strct limitations (0.4mA current max, no lenses/optical enhancments, limited frequncy bandwidth).",
+      description: "Partner based project using Sophomore level ECE skills. My project was to implement an IR Radio Teletype to communicate over 5 feet with strict limitations (0.4mA current max, no lenses/optical enhancments, limited frequncy bandwidth).",
       bullets: [
       ]
     },
@@ -125,7 +125,7 @@ academic_projects: [
       subtitle: "Video game design.",
       bullets: [
         "Learned programming skills nessecary to create captivating video games.",
-        "Learned values outside of techincal skills that make video games stand out."
+        "Learned values outside of technical skills that make video games stand out."
       ]
     },
     {
@@ -149,7 +149,7 @@ academic_projects: [
       subtitle: "Campus Newpaper",
       bullets: [
         "Opinions Contributer",
-        "Notable Article: Life on Campus without Socail Media: https://www.collegiatetimes.com/opinion/campus-life-without-social-media/article_620a7d0e-f338-4237-9559-7d30253ab650.html"
+        "Notable Article: Life on Campus without Social Media: https://www.collegiatetimes.com/opinion/campus-life-without-social-media/article_620a7d0e-f338-4237-9559-7d30253ab650.html"
       ]
     },
     {
@@ -163,7 +163,7 @@ academic_projects: [
       title: "Entreprenurship Club",
       subtitle: "",
       bullets: [
-        "Engaed with fellow Hokie startups."
+        "Engaged with fellow Hokie startups."
       ]
     },
     {
@@ -202,19 +202,28 @@ academic_projects: [
 
   athletics: [
     {
-      title: "Varsity Cross Country & Track",
+      title: "Varsity Cross Country",
       subtitle: "Team Captain — State Championship (senior year)",
       bullets: [
-        "Led team for three seasons; coached high jump when needed.",
-        "Set a school record in high jump."
+        "Led team for three seasons"
       ]
     },
     {
-      title: "Baseball - Player & Coach",
+      title: "Varisty Indoor Track and Field",
+      subtitle: "Team Captain",
+      bullets: [
+        "Led team for three years",
+        "Coached the high jump my senior year",
+        "Set school high jump record (2023)"
+      ]
+    },
+    {
+      title: "Varisty and Club Baseball - Player & Coach",
       subtitle: "Longstanding involvement in baseball",
       bullets: [
         "Played recreationally and travel baseball from age 5 to 17.",
-        "Coached for multiple teams starting at age 12."
+        "Coached for multiple teams starting at age 12.",
+        "Varisty player and team captain for three season"
       ]
     }
   ],
@@ -253,6 +262,14 @@ academic_projects: [
       subtitle: "Family Business Est. 2022",
       bullets: [
         "Handmade wood baseball bats"
+      ]
+    },
+    {
+      title: "Baseball Swing Analyzer",
+      subtitle: "New Venture",
+      bullets: [
+        "Using CV to give feedback to player's on their swing.",
+        "Making affordable coaching available to all."
       ]
     }
   ]

@@ -45,6 +45,7 @@ export default function App() {
         <Section id="extracurricular" title="Extracurricular" items={data.extracurricular} />
         <Section id="athletics" title="Athletics" items={data.athletics} />
         <Section id="skills" title="Notable Skills & Activities" items={data.skills} />
+        <Section id="personal_projects" title="Personal Projects" items={data.personal_projects} />
 
         <Footer />
       </main>
