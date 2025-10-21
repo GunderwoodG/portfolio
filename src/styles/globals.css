@@ -1,0 +1,31 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Button utilities */
+.btn-primary {
+  @apply bg-gradient-to-r from-deep-blue to-navy-900 text-white py-2 px-4 rounded-md shadow-sm border border-gray-700 hover:from-navy-900 hover:to-deep-blue transition-all;
+}
+.btn-outline {
+  @apply border border-gray-600 text-gray-200 py-2 px-4 rounded-md hover:border-light-gold hover:text-light-gold transition-colors;
+}
+
+/* Typography */
+body {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
