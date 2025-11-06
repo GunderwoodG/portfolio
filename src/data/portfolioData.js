@@ -1,5 +1,8 @@
 // This file exports a JavaScript object containing the content for the site.
 // Using a JS file (instead of raw JSON) allows comments and easier edits later.
+import codefest from '../assets/codefest.png'
+import ctart from'../assets/ct_art.png'
+
 const data = {
   academic: [
     {
@@ -15,7 +18,12 @@ const data = {
         "AP Computer Science Principles - Score 4 (2024)",
         "AP English Literature and Composition - Score 3 (2024)",
         "AP English Language and Composition - Score 4 (2024)"
-      ]
+      ],
+      details: {
+        images: [],
+        tags: [],
+        longText: ""
+      }
     },
     {
       title: "Awards",
@@ -54,12 +62,21 @@ academic_projects: [
       bullets: [
       ]
     },
-        {
+      {
       title: "Pixel Monarch",
       subtitle: "ECE 2564 - Embedded Systems",
       date: "",
       description: "Implemented a MSP432 based video game using C programming and embedded harward.",
-      bullets: [
+      bullets: [ "https://github.com/GunderwoodG/ECE2654-Project1-PixelMonarch"
+      ]
+    },
+    {
+      title: "Touhou",
+      subtitle: "ECE 2564 - Embedded Systems",
+      date: "",
+      description: "Implemented another MSP432 based video game using C programming and embedded harward.",
+      bullets: [ "Used skills learned in class and from my extracuricular VTGD",
+        "Github coming soon..."
       ]
     }
     // Add more academic items below following the same structure.
@@ -88,7 +105,7 @@ academic_projects: [
       subtitle: "Circuits, Maxwell, Faraday, Lenz, Electromagnetics, and Optics",
       date: "",
       bullets: [
-        "Physics is my favorite subject and I hope to puruse a Minor or Master's for it!"
+        "Physics is my favorite subject and I hope to pursue a Minor or Master's for it!"
       ]
     },
      {
@@ -150,7 +167,10 @@ academic_projects: [
       bullets: [
         "Opinions Contributer",
         "Notable Article: Life on Campus without Social Media: https://www.collegiatetimes.com/opinion/campus-life-without-social-media/article_620a7d0e-f338-4237-9559-7d30253ab650.html"
-      ]
+      ],
+      details: {
+        images: [ctart]
+      }
     },
     {
       title: "Engineer's Forum Magazine",
@@ -187,7 +207,12 @@ academic_projects: [
       description: "Created a project in a weekend with a team of five.",
       bullets: [
         "https://github.com/GunderwoodG/code-fest-2025_forked"
-      ]
+      ],
+      details: {
+        images: [codefest],
+        tags: [],
+        longText: ""
+      }
     },
     {
       title: "Game Jam 2025",
