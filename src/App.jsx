@@ -26,7 +26,7 @@ export default function App() {
                       <p className="mt-2 text-lg text-gray-300">
                         Junior at Virginia Tech (Graduating One Year Early)<br />
                         Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
-                        Minor: Computer Science<br />
+                        Minor: Physics, Computer Science, Mathematics<br />
                         GPA: 3.88 <br />
                       </p>
                       <p className="mt-6 text-sm text-gray-300 italic">
