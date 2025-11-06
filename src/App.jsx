@@ -30,7 +30,7 @@ export default function App() {
                         GPA: 3.88 <br />
                       </p>
                       <p className="mt-6 text-sm text-gray-300 italic">
-                        Welcome — this portfolio documents academic achievements, projects, and extracurricular activities.
+                        Welcome — this portfolio documents academic achievements, projects, and extracurricular activities. <br />
                         "Two men looked out from prison bars - one saw mud, the other saw stars" - Dale Carnegie.
                       </p>
                       <div className="mt-6 flex gap-4">
