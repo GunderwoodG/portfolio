@@ -75,7 +75,11 @@ export default function Navbar() {
         </ul>
         <div className="md:hidden">
           <select
-            onChange={(e) => handleNavClick(e.target.value)}
+            onChange={(e) => {
+              const selected = links.find(l => l.href === e.target.value);
+              if (selected) handleNavClick(selected.href, selected.isPage);
+            }}
+
             className="bg-transparent border border-gray-700 text-sm px-2 py-1 rounded"
           >
             {links.map(l => <option key={l.href} value={l.href}>{l.label}</option>)}
