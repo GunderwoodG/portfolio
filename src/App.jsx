@@ -6,6 +6,8 @@ import DetailPage from './components/DetailPage'; // new detail view
 import data from './data/portfolioData';
 import vtlogo from './assets/vt.webp';
 import ContactPage from './components/ContactPage';
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
 
 export default function App() {
   return (
@@ -67,6 +69,13 @@ export default function App() {
 
           {/* existing routes */}
           <Route path="/contact" element={<ContactPage />} />
+
+          {/* Blog Routes */} 
+
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+
+
         </Routes>
       </main>
     </div>
