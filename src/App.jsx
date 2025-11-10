@@ -8,6 +8,8 @@ import vtlogo from './assets/vt.webp';
 import ContactPage from './components/ContactPage';
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
+import StudyMaterialsPage from './components/StudyMatPage';
+
 
 export default function App() {
   return (
@@ -74,6 +76,8 @@ export default function App() {
 
           <Route path="/blog" element={<Blog />} />
           <Route path="/blog/:slug" element={<BlogPost />} />
+
+          <Route path="/study-materials" element={<StudyMaterialsPage />} />
 
 
         </Routes>

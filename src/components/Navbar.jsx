@@ -7,6 +7,7 @@ const links = [
   { href: 'extracurricular', label: 'Extracurricular' },
   { href: 'athletics', label: 'Athletics' },
   { href: 'skills', label: 'Skills' },
+  { href: '/study-materials', label: 'Study Materials', isPage: true },
   { href: '/blog', label: 'Blog', isPage: true },
   { href: '/contact', label: 'Contact', isPage: true }
 ];
