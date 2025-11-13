@@ -2,6 +2,8 @@
 // Using a JS file (instead of raw JSON) allows comments and easier edits later.
 import codefest from '../assets/codefest.png'
 import ctart from'../assets/ct_art.png'
+import vtq from '../assets/cert_VTQ.png'
+import fallfest from '../assets/cert_fallfest.png'
 
 const data = {
   academic: [
@@ -34,6 +36,189 @@ const data = {
         "Dean's List (Fall 2024)",
         "Dean's List (Spring 2025)"
       ]
+    },
+    {
+      title: "Fall 2024",
+      subtitle: "First Semester Courses (19 Credit Hours)",
+      date: "",
+      description: "",
+      bullets: ["ENGE 1414 - Introduction To Engineering (4 Credits)","ECE 1004 - Introduction to Electrical and Computer Engineering (3 Credits)","MATH 2204 - Introduction to Multivariable Calculus (Calc 3) (3 Credits)","PHYS 2306 - Foundations of Physics II (Electricity and Magnetism) (4 Credits)","ENGR 1054 - Gallileo Seminar (2 Credits)","MATH 2114 - Linear Algebra (Transfer Credit from LSU) (3 Credits)"],
+      details: {
+        bullets: [
+        {
+          "title": "ENGE 1414 - Introduction To Engineering",
+          "subpoints": [
+            "Project-based learning with emphasis on teamwork and ethics.",
+            "Freshman-level condensed course",
+            "Learned engineering problem solving, design methods, CAD, Matlab, programming, and professional expectations.",
+            "4 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 1004 - Introduction to Electrical and Computer Engineering",
+          "subpoints": [
+            "Freshman-level course",
+            "Included hands-on labs with circuits and Arduino.",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "MATH 2204 - Introduction to Multivariable Calculus (Calc 3)",
+          "subpoints": [
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "PHYS 2306 - Foundations of Physics II (Electricity and Magnetism)",
+          "subpoints": [
+            "Sophomore-level course",
+            "Included lab component with experiments related to electromagnetism.",
+            "4 Credit Hours"
+          ]
+        },
+        {
+          "title": "ENGR 1054 - Gallileo Seminar",
+          "subpoints": [
+            "Two Semester Seminar Course",
+            "Professional development, ethics, and communication skills for engineers.",
+            "2 Credit Hours"
+          ]
+        },
+        {
+          "title": "MATH 2114 - Linear Algebra (Transfer Credit from LSU)",
+          "subpoints": [
+            "Class taken during Fall Semester 2024 at VT",
+            "Online course through LSU",
+            "3 Credit Hours",
+            "\"Self Taught\""
+          ]
+        }
+      ]
+      }
+    },
+    {
+      title: "Spring 2025",
+      subtitle: "Second Semester Courses - Sophomore by Credit (21 Credit Hours)",
+      date: "",
+      description: "",
+      bullets: ["ECE 2024 - Circuits and Devices (3 Credits)","ECE 2514 - Computational Engineering (3 Credits)","ECE 2544 - Digital Systems (FPGAs) (3 Credits)","MATH 2214 - Differential Equations (3 Credits)","MGT 2064 - Foundations of Entrepreneurship (3 Credits)","ITDS 1114 - Design Appreciation (3 Credits)","ARCH 1044 - Life in the Built Environment (3 Credits)"],
+      details: {
+        bullets: [
+        {
+          "title": "ECE 2024 - Circuits and Devices",
+          "subpoints": [
+            "Sophomore-level course",
+            "Included hands-on labs with circuits (diode bridges, rectifiers, LEDs, op-amps).",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 2514 - Computational Engineering",
+          "subpoints": [
+            "Introduction to C++",
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        }
+        ,
+        {
+          "title": "ECE 2544 - Digital Systems (FPGAs)",
+          "subpoints": [
+            "Introduction to Verilog and FPGA design",
+            "Project based course",
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "MATH 2214 - Differential Equations",
+          "subpoints": [
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "MGT 2064 - Foundations of Entrepreneurship",
+          "subpoints": [
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ITDS 1114 - Design Appreciation",
+          "subpoints": [
+            "General Education Course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ARCH 1044 - Life in the Built Environment",
+          "subpoints": [
+            "General Education Course",
+            "3 Credit Hours"
+          ]
+        }
+      ]
+      }
+    },
+    {
+      title: "Fall 2025",
+      subtitle: "Third Semester Courses - Junior by Credit (17 Credit Hours)",
+      date: "",
+      description: "",
+      bullets: ["ECE 2214 - Physical Electronics (3 Credits)","ECE 2564 - Embedded Systems (3 Credits)","ECE 2714 - Signals and Systems (3 Credits)","ECE 2804 - Integrated Design Project (3 Credits)","ECE 3514 - Data Structures and Algorithms (3 Credits)","STAT 4714 - Introduction to Probability and Statistics for Engineers (2 Credits)"],
+      details: {
+        bullets: [
+        {
+          "title": "ECE 2214 - Physical Electronics",
+          "subpoints": [
+            "Sophomore-level course",
+            "Included hands-on labs with circuits (MOSFETS).",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 2564 - Embedded Systems",
+          "subpoints": [
+            "MSP432 Microcontroller programming in C",
+            "Sophomore-level course",
+            "Project heavy course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 2714 - Signals and Systems",
+          "subpoints": [
+            "Coninuous and discrete signals analysis",
+            "Convolution, Fourier Series, Fourier Transforms",
+            "Sophomore-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 2804 - Integrated Design Project",
+          "subpoints": [
+            "Sophomore-level course",
+            "Partner based (intensive) project",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3514 - Data Structures and Algorithms",
+          "subpoints": [
+            "Junior-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "STAT 4714 - Introduction to Probability and Statistics for Engineers",
+          "subpoints": [
+            "3 Credit Hours"
+          ]
+        }
+      ]
+      }
     }
     // Add more academic items below following the same structure.
   ],
@@ -81,44 +266,6 @@ academic_projects: [
     }
     // Add more academic items below following the same structure.
   ],
-  notable_courses: [
-    {
-      title: "Introduction To Engineering",
-      subtitle: "Virginia Tech — Freshman-level condensed course",
-      date: "",
-      description: "Learned engineering problem solving, design methods, CAD, Matlab, programming, and professional expectations.",
-      bullets: [
-        "Project-based learning with emphasis on teamwork and ethics."
-      ]
-    },
-    {
-      title: "Digital Systems (FPGAs)",
-      subtitle: "Verilog, CPU design, and low-level programming",
-      date: "",
-      bullets: [
-        "Designed a functional CPU using FPGA toolchain.",
-        "Worked from transistor level design up through registers."
-      ]
-    },
-    {
-      title: "Physics (Electricity and Magnetism)",
-      subtitle: "Circuits, Maxwell, Faraday, Lenz, Electromagnetics, and Optics",
-      date: "",
-      bullets: [
-        "Physics is my favorite subject and I hope to pursue a Minor or Master's for it!"
-      ]
-    },
-     {
-      title: "Introduction to ECE",
-      subtitle: "Circuit basics, capacitors, inductors, and labs.",
-      date: "",
-      bullets: [
-        "This class (and the Professor) helped me discover my love for ECE in my first semester."
-      ]
-    }
-    // Add more academic items below following the same structure.
-  ],
-
   extracurricular: [
     {
       title: "Robotics — FTC Team Vector 5233",
@@ -222,33 +369,28 @@ academic_projects: [
         "https://github.com/GunderwoodG/GameJamExternalScript",
         "Collaborators welcomed!"
       ]
-    }
-  ],
-
-  athletics: [
-    {
-      title: "Varsity Cross Country",
-      subtitle: "Team Captain — State Championship (senior year)",
-      bullets: [
-        "Led team for three seasons"
-      ]
     },
     {
-      title: "Varisty Indoor Track and Field",
-      subtitle: "Team Captain",
+      title: "Qiskit Fall Fest 2025",
+      subtitle: "VTQ Hackathon",
+      description: "",
       bullets: [
-        "Led team for three years",
-        "Coached the high jump my senior year",
-        "Set school high jump record (2023)"
-      ]
+        "Learned basics of quantum computing and theory",
+        "Learned Qiskit framework"
+      ],
+      details: {
+        images: [vtq, fallfest],
+        tags: [],
+        longText: ""
+      }
     },
     {
-      title: "Varisty and Club Baseball - Player & Coach",
-      subtitle: "Longstanding involvement in baseball",
+      title: "VT Incubator Program",
+      subtitle: "Startup Accelerator",
+      description: "",
       bullets: [
-        "Played recreationally and travel baseball from age 5 to 17.",
-        "Coached for multiple teams starting at age 12.",
-        "Varisty player and team captain for three season"
+        "Accepted into VT's startup incubator program for my baseball swing analyzer startup.",
+        "Networking with other entrepreneurs and mentors."
       ]
     }
   ],
@@ -295,6 +437,62 @@ academic_projects: [
       bullets: [
         "Using CV to give feedback to player's on their swing.",
         "Making affordable coaching available to all."
+      ]
+    }
+  ],
+
+  athletics: [
+    {
+      title: "Varsity Cross Country",
+      subtitle: "Team Captain — State Championship (senior year)",
+      bullets: [
+        "Led team for three seasons"
+      ]
+    },
+    {
+      title: "Varsity Indoor Track and Field",
+      subtitle: "Team Captain",
+      bullets: [
+        "Led team for three years",
+        "Coached the high jump my senior year",
+        "Set school high jump record (2023)"
+      ]
+    },
+    {
+      title: "Varsity and Club Baseball - Player & Coach",
+      subtitle: "Longstanding involvement in baseball",
+      bullets: [
+        "Played recreationally and travel baseball from age 5 to 17.",
+        "Coached for multiple teams starting at age 12.",
+        "Varsity player and team captain for three season"
+      ]
+    }
+  ],
+
+  workexperience: [
+    {
+      title: "Baseball Umpire",
+      subtitle: "2019 - Present",
+      bullets: [
+        "Responsible for enforcement and officiation of safety, sportsmanship, and the rules of baseball and softball for players aged eight to twenty-two.",
+        "Trainer and recruiter for future umpires.",
+        "Managed conflicts and ensured a positive experience for all participants."
+      ]
+    },
+    {
+      title: "Baltimore Sailing Center",
+      subtitle: "Summer 2021 - 2022",
+      bullets: [
+        "Instructed students aged eight to sixteen for two summers on common outdoor first aid and environmental practices in addition to various fishing and fly fishing skills."
+      ]
+    },
+    {
+      title: "Handshake AI Fellowship",
+      subtitle: "2025",
+      bullets: [
+        "Completed AI projects, data annotation, and ML implementation.",
+        "Project Spectra",
+        "Project Alexandria"
       ]
     }
   ]

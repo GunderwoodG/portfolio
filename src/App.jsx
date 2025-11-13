@@ -28,7 +28,7 @@ export default function App() {
                     <div className="md:col-span-2">
                       <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Garrison Underwood</h1>
                       <p className="mt-2 text-lg text-gray-300">
-                        Junior at Virginia Tech (Graduating One Year Early)<br />
+                        Junior at Virginia Tech (Graduating One Year Early - 2027)<br />
                         Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
                         Minor: Physics, Computer Science, Mathematics<br />
                         GPA: 3.88 <br />
@@ -53,13 +53,15 @@ export default function App() {
                 </section>
 
                 {/* Dynamic Sections */}
-                <Section id="academic" title="Academic" items={data.academic} />
+                {/* <Section id="notable_courses" title="Notable Courses" items={data.notable_courses} /> */}
+                <Section id="academic" title="Academics" items={data.academic} />
                 <Section id="academic_projects" title="Academic Projects" items={data.academic_projects} />
-                <Section id="notable_courses" title="Notable Courses" items={data.notable_courses} />
                 <Section id="extracurricular" title="Extracurricular" items={data.extracurricular} />
-                <Section id="athletics" title="Athletics" items={data.athletics} />
+                <Section id="workexperience" title="Work Experience" items={data.workexperience} />
                 <Section id="skills" title="Notable Skills & Activities" items={data.skills} />
                 <Section id="personal_projects" title="Personal Projects" items={data.personal_projects} />
+                <Section id="athletics" title="Athletics" items={data.athletics} />
+                
 
                 <Footer />
               </>

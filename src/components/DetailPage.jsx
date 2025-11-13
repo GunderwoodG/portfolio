@@ -35,6 +35,7 @@ export default function DetailPage() {
           ))}
         </ul>
       )}
+      <hr className="border-t border-gray-700 my-8" />
 
       {/* {bullets && (
         <ul className="list-disc ml-6 space-y-2 text-gray-300 mb-6">
@@ -59,6 +60,22 @@ export default function DetailPage() {
             <img key={i} src={src} alt={`detail ${i}`} className="rounded-lg border border-gray-700" />
           ))}
         </div>
+      )}
+      {details?.bullets && (
+        <ul className="list-disc ml-6 space-y-2 text-gray-300 mb-6">
+          {details.bullets.map((bullet, i) => (
+            <li key={i}>
+              {bullet.title}
+              {bullet.subpoints && (
+                <ul className="list-[circle] list-inside ml-4 mt-1 space-y-1">
+                  {bullet.subpoints.map((sub, j) => (
+                    <li key={j} className="text-gray-400">{sub}</li>
+                  ))}
+                </ul>
+              )}
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
