@@ -252,7 +252,7 @@ academic_projects: [
       subtitle: "ECE 2564 - Embedded Systems",
       date: "",
       description: "Implemented a MSP432 based video game using C programming and embedded harward.",
-      bullets: [ "https://github.com/GunderwoodG/ECE2654-Project1-PixelMonarch"
+      bullets: [ "Wrote a detailed project report.", "https://github.com/GunderwoodG/ECE2654-Project1-PixelMonarch"
       ]
     },
     {
@@ -260,8 +260,8 @@ academic_projects: [
       subtitle: "ECE 2564 - Embedded Systems",
       date: "",
       description: "Implemented another MSP432 based video game using C programming and embedded harward.",
-      bullets: [ "Used skills learned in class and from my extracuricular VTGD",
-        "Github coming soon..."
+      bullets: [ "Used skills learned in class and from my extracuricular VTGD", "Wrote a detailed project report.",
+        "https://github.com/GunderwoodG/f25-proj2-GunderwoodG-forked"
       ]
     }
     // Add more academic items below following the same structure.
@@ -334,7 +334,7 @@ academic_projects: [
       ]
     },
     {
-      title: "IEE@VT",
+      title: "IEEE@VT",
       subtitle: "",
       bullets: [
         "ECE Networking"

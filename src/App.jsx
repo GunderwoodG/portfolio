@@ -9,9 +9,13 @@ import ContactPage from './components/ContactPage';
 import Blog from "./pages/Blog";
 import BlogPost from "./pages/BlogPost";
 import StudyMaterialsPage from './components/StudyMatPage';
+import usePageTracking from './hooks/usePageTracking';
+
 
 
 export default function App() {
+  usePageTracking();
+
   return (
     <div className="bg-navy-900 min-h-screen text-gray-100 font-sans">
       <Navbar />
