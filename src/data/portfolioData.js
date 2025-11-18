@@ -420,6 +420,13 @@ academic_projects: [
       bullets: [
         "Implementing personal projects to be used in real world applications"
       ]
+    },
+    {
+      title: "Web Analytics",
+      subtitle: "",
+      bullets: [
+        "Implemented web analytics for this site!"
+      ]
     }
   ],
 
