@@ -44,6 +44,8 @@ export default function App() {
                       <div className="mt-6 flex gap-4">
                         <a href="#academic" className="inline-block btn-primary">Academics</a>
                         <a href="#extracurricular" className="inline-block btn-outline">Extracurricular</a>
+                        <a href="#workexperience" className="inline-block btn-outline">Work Experience</a>
+                        <a href="#bsa" className="inline-block btn-outline">BSA</a>
                       </div>
                     </div>
                     <div className="mx-auto w-44 h-44 rounded-xl bg-gradient-to-br from-deep-blue to-navy-900 flex items-center justify-center shadow-lg border border-gray-800">
@@ -63,6 +65,7 @@ export default function App() {
                 <Section id="extracurricular" title="Extracurricular" items={data.extracurricular} />
                 <Section id="workexperience" title="Work Experience" items={data.workexperience} />
                 <Section id="skills" title="Notable Skills & Activities" items={data.skills} />
+                <Section id="bsa" title="BSA" items={data.bsa} />
                 <Section id="personal_projects" title="Personal Projects" items={data.personal_projects} />
                 <Section id="athletics" title="Athletics" items={data.athletics} />
                 

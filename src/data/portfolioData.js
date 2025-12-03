@@ -32,9 +32,11 @@ const data = {
       subtitle: "",
       date: "",
       bullets: [
+        "National Honor Society (2022-24)",
         "AP Scholar with Distinction (2024)",
         "Dean's List (Fall 2024)",
-        "Dean's List (Spring 2025)"
+        "Dean's List (Spring 2025)",
+        "Outstanding Student Award - CEED (2024-25)"
       ]
     },
     {
@@ -201,7 +203,7 @@ const data = {
           "subpoints": [
             "Sophomore-level course",
             "Partner based (intensive) project",
-            "3 Credit Hours"
+            "2 Credit Hours"
           ]
         },
         {
@@ -443,7 +445,37 @@ academic_projects: [
       subtitle: "New Venture",
       bullets: [
         "Using CV to give feedback to player's on their swing.",
-        "Making affordable coaching available to all."
+        "Making affordable coaching available to all.",
+        "Accepted into VT's startup incubator program."
+      ]
+    }
+  ],
+
+  bsa: [
+    {
+      title: "Leadership Positions",
+      subtitle: "",
+      bullets: [
+        "Assistant Patrol Leader (2018)", 
+        "Troop Guide (2019)", 
+        "Assistant Senior Patrol Leader (2021)", 
+        "Senior Patrol Leader (2021)",
+        "Youth Leadership Training (2021)", 
+        "Junior Assistant Scoutmaster (2023)"
+      ]
+    },
+    {
+      title: "Awards",
+      subtitle: "",
+      bullets: [
+        "Firem’n Chit (2017)", 
+        "Totin’ Chip (2017)", 
+        "Kayaking BSA (2019)",
+        "Spanish Interpreter Strip (2019)",
+        "Order of the Arrow (2019)", 
+        "National Outdoor Award Hiking (2020)", 
+        "National Outdoor Award Camping (2021)", 
+        "Eagle Scout (2023)"
       ]
     }
   ],
