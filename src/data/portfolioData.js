@@ -169,7 +169,7 @@ const data = {
       subtitle: "Third Semester Courses - Junior by Credit (17 Credit Hours)",
       date: "",
       description: "",
-      bullets: ["ECE 2214 - Physical Electronics (3 Credits)","ECE 2564 - Embedded Systems (3 Credits)","ECE 2714 - Signals and Systems (3 Credits)","ECE 2804 - Integrated Design Project (3 Credits)","ECE 3514 - Data Structures and Algorithms (3 Credits)","STAT 4714 - Introduction to Probability and Statistics for Engineers (2 Credits)"],
+      bullets: ["ECE 2214 - Physical Electronics (3 Credits)","ECE 2564 - Embedded Systems (3 Credits)","ECE 2714 - Signals and Systems (3 Credits)","ECE 2804 - Integrated Design Project (2 Credits)","ECE 3514 - Data Structures and Algorithms (3 Credits)","STAT 4714 - Introduction to Probability and Statistics for Engineers (3 Credits)"],
       details: {
         bullets: [
         {
@@ -413,7 +413,7 @@ academic_projects: [
       subtitle: "Published author and magazine contributor",
       bullets: [
         "Published an article in a fly fishing magazine.",
-        "Staff writer for the Collegiate Times and contributor to Engineers Forum."
+        "Staff writer for the Collegiate Times and contributor to Engineer's Forum."
       ]
     },
     {
