@@ -265,6 +265,30 @@ academic_projects: [
       bullets: [ "Used skills learned in class and from my extracuricular VTGD", "Wrote a detailed project report.",
         "https://github.com/GunderwoodG/f25-proj2-GunderwoodG-forked"
       ]
+    },
+    {
+      title: "Statistics on a Machine Learning Baseball Swing Analyzer",
+      subtitle: "STAT 4714 - Introduction to Probability and Statistics for Engineers",
+      date: "",
+      description: "Created a ML model to analyze baseball swings in Python. Performed statistical analysis on the model's performance.",
+      bullets: [ "Wrote a detailed project report.", "Created a LSTM model in Python using PyTorch."],
+      details: {
+        images: [],
+        tags: [],
+        longText: ""
+      }
+    },
+    {
+      title: "Signals and Systems Filter on Audio Signals",
+      subtitle: "ECE 2714 - Signals and Systems",
+      date: "",
+      description: "Analyzed audio signals using filters, Fourier Series, and Fourier Transforms.",
+      bullets: [ "Wrote a detailed Lab report.", "Implemented in MATLAB."],
+      details: {
+        images: [],
+        tags: [],
+        longText: ""
+      }
     }
     // Add more academic items below following the same structure.
   ],
