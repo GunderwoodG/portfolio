@@ -34,8 +34,8 @@ export default function App() {
                       <p className="mt-2 text-lg text-gray-300">
                         Junior at Virginia Tech (Graduating One Year Early - 2027)<br />
                         Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
-                        Minor: Physics, Computer Science, Mathematics<br />
-                        GPA: 3.88 <br />
+                        Minor: Physics, Computer Science<br />
+                        GPA: 3.8 <br />
                       </p>
                       <p className="mt-6 text-sm text-gray-300 italic">
                         Welcome — this portfolio documents academic achievements, projects, and extracurricular activities. <br />

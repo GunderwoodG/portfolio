@@ -36,7 +36,8 @@ const data = {
         "AP Scholar with Distinction (2024)",
         "Dean's List (Fall 2024)",
         "Dean's List (Spring 2025)",
-        "Outstanding Student Award - CEED (2024-25)"
+        "Outstanding Student Award - CEED (2024-25)",
+        "Dean's List (Fall 2025)"
       ]
     },
     {
@@ -216,6 +217,84 @@ const data = {
         {
           "title": "STAT 4714 - Introduction to Probability and Statistics for Engineers",
           "subpoints": [
+            "3 Credit Hours"
+          ]
+        }
+      ]
+      }
+    },
+    {
+      title: "Spring 2026",
+      subtitle: "Fourth Semester Courses - Junior (22 Credit Hours)",
+      date: "",
+      description: "",
+      bullets: ["ECE 3105 - Electromagnetics (3 Credits)","ECE 3704 - Continuous and Discrete Systems (3 Credits)","ECE 3574 - Applied Software Design (3 Credits)","ECE 3504 - Computer Architecture (3 Credits)","ECE 3004 - AC Circuit Analysis (3 Credits)","ECE 3074 - AC Circuit Design Lab (1 Credit)","PHYS 2504 - Math Methods in Physics (3 Credits)","PHS 3534 - Drug Education (3 Credits)"],
+      details: {
+        bullets: [
+        {
+          "title": "ECE 3105 - Electromagnetics",
+          "subpoints": [
+            "Junior-level course",
+            "Transmission Lines, Electromagnetic Fields, Etc.",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3704 - Continuous and Discrete Systems",
+          "subpoints": [
+            "Junior-level course",
+            "Control systems, feedback, stability analysis, etc.",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3574 - Applied Software Design",
+          "subpoints": [
+            "Junior-level course",
+            "Software design principles, patterns, and best practices.",
+            "C++ programming",
+            "NLP Semester Long Project",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3504 - Computer Architecture",
+          "subpoints": [
+            "Junior-level course",
+            "MIPS architecture",
+            "Assembly programming",
+            "Discussed modern CPU design (RISC V), cache design, pipelining, etc.",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3004 - AC Circuit Analysis",
+          "subpoints": [
+            "Junior-level course",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 3074 - AC Circuit Design Lab",
+          "subpoints": [
+            "Junior-level course",
+            "Lab component for ECE 3004",
+            "1 Credit Hour"
+          ]
+        },
+        {
+          "title": "PHYS 2504 - Math Methods in Physics",
+          "subpoints": [
+            "Series, Complex Analysis, Linear Algebra, Tensors, etc. for Physics",
+            "For Physics Minor",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "PHS 3534 - Drug Education",
+          "subpoints": [
+            "Analysis of drug use and abuse from a scientific perspective",
+            "For General Education",
             "3 Credit Hours"
           ]
         }
@@ -418,6 +497,16 @@ academic_projects: [
         "Accepted into VT's startup incubator program for my baseball swing analyzer startup.",
         "Networking with other entrepreneurs and mentors."
       ]
+    },
+    {
+      title: "Hokie Stone Press",
+      subtitle: "Campus Newspaper",
+      description: "",
+      bullets: [
+        "Founding Member.",
+        "Website Operator.",
+        "https://hokiestonepress.com/"
+      ]
     }
   ],
 
@@ -458,10 +547,11 @@ academic_projects: [
 
   personal_projects: [
     {
-      title: "Underwood Bat Co.",
+      title: "Umpire Bats.",
       subtitle: "Family Business Est. 2022",
       bullets: [
-        "Handmade wood baseball bats"
+        "Handmade wood baseball bats",
+        "https://umpirebats.vercel.app/"
       ]
     },
     {
@@ -471,6 +561,16 @@ academic_projects: [
         "Using CV to give feedback to player's on their swing.",
         "Making affordable coaching available to all.",
         "Accepted into VT's startup incubator program."
+      ]
+    },
+    {
+      title: "Diamond Rules",
+      subtitle: "Baseball and Softball Rules Instruction Website",
+      bullets: [
+        "https://diamondrules.com/",
+        "Baseball and Softball Rule Quizzes (OBR, NFHS, USSSA, etc.)",
+        "Rules Explanation Library",
+        "Newsletter"
       ]
     }
   ],
@@ -534,12 +634,30 @@ academic_projects: [
 
   workexperience: [
     {
-      title: "Baseball Umpire",
+      title: "MYSO Umpire",
       subtitle: "2019 - Present",
       bullets: [
+        "Maryland Youth Sports Officials",
         "Responsible for enforcement and officiation of safety, sportsmanship, and the rules of baseball and softball for players aged eight to twenty-two.",
         "Trainer and recruiter for future umpires.",
         "Managed conflicts and ensured a positive experience for all participants."
+      ]
+    },
+    {
+      title: "SUM Umpire",
+      subtitle: "2026 - Present",
+      bullets: [
+        "Softball Umpire of Maryland",
+        "Responsible for enforcement and officiation of safety, sportsmanship, and the rules of USSSA softball for players aged ten to eighteen."
+      ]
+    },
+    {
+      title: "VHSL Umpire",
+      subtitle: "2026 - Present",
+      bullets: [
+        "Umpire for the Virginia High School Leagues with Roanoke Valley Baseball Umpires Association",
+        "Responsible for enforcement and officiation of safety, sportsmanship, and the rules of NFHS baseball for players in middle and high school.",
+        "Also umpire College Baseball scrimmages and club games."
       ]
     },
     {
