@@ -4,6 +4,7 @@ import codefest from '../assets/codefest.png'
 import ctart from'../assets/ct_art.png'
 import vtq from '../assets/cert_VTQ.png'
 import fallfest from '../assets/cert_fallfest.png'
+import lab from '../assets/lab.jpg'
 
 const data = {
   academic: [
@@ -300,6 +301,63 @@ const data = {
         }
       ]
       }
+    },
+    {
+      title: "Fall 2026",
+      subtitle: "Fifth Semester Courses - Senior (17 Credit Hours)",
+      date: "",
+      description: "",
+      bullets: ["ECE 4805 - Senior Design Project (3 Credits)","ECE 4524 - AI & Engineering Applications (4 Credits)","ECE 4580 - Digital Image Processing (3 Credits)","ECE 5554 - Advanced Machine Learning (3 Credits)","PHYS 3324 - Modern Physics (3 Credits)","PHYS 3324L - Modern Physics Lab (1 Credit)"],
+      details: {
+        bullets: [
+        {
+          "title": "ECE 4805 - Senior Design Project",
+          "subpoints": [
+            "Senior-level course",
+            "Capstone project integrating all learned concepts",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 4524 - AI & Engineering Applications",
+          "subpoints": [
+            "Senior-level course",
+            "Application of AI techniques to engineering problems",
+            "4 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 4580 - Digital Image Processing",
+          "subpoints": [
+            "Senior-level course",
+            "Processing and analysis of digital images",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "ECE 5554 - Advanced Machine Learning",
+          "subpoints": [
+            "Graduate-level course",
+            "Advanced topics in machine learning",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "PHYS 3324 - Modern Physics",
+          "subpoints": [
+            "Modern physics concepts and applications",
+            "3 Credit Hours"
+          ]
+        },
+        {
+          "title": "PHYS 3324L - Modern Physics Lab",
+          "subpoints": [
+            "Modern physics concepts and applications",
+            "1 Credit Hour"
+          ]
+        },
+      ]
+      }
     }
     // Add more academic items below following the same structure.
   ],
@@ -365,6 +423,18 @@ academic_projects: [
       bullets: [ "Wrote a detailed Lab report.", "Implemented in MATLAB."],
       details: {
         images: [],
+        tags: [],
+        longText: ""
+      }
+    },
+    {
+      title: "ECG Design & Implementation",
+      subtitle: "ECE 3074 - AC Circuit Design Lab",
+      date: "",
+      description: "Created an ECG circuit design and implemented it on a breadboard.",
+      bullets: [ "Instrumentation Amplifier.", "Bandpass Filter.", "Notch Filter.", "Low Pass Filter."],
+      details: {
+        images: [lab],
         tags: [],
         longText: ""
       }
@@ -533,7 +603,8 @@ academic_projects: [
       title: "AI/ML/CV",
       subtitle: "Discovering the world of AI.",
       bullets: [
-        "Implementing personal projects to be used in real world applications"
+        "Implementing personal projects to be used in real world applications",
+        "Incorporating LLMs, CNNs, RF, RAG, TTS, STT, and locally and hosted over servers"
       ]
     },
     {
@@ -571,6 +642,40 @@ academic_projects: [
         "Baseball and Softball Rule Quizzes (OBR, NFHS, USSSA, etc.)",
         "Rules Explanation Library",
         "Newsletter"
+      ]
+    },
+    {
+      title: "Promptstitue",
+      subtitle: "Prompt Engineering Resource",
+      bullets: [
+        "https://promptstitute.vercel.app/",
+        "A gag website that is actually a useful resource for prompt engineering.",
+        "Funny and Useful"
+      ]
+    },
+    {
+      title: "Restaurant Wait Time Collector",
+      subtitle: "Real-time Wait Time Data for Consumers",
+      bullets: [
+        "https://restaurant-web-blue.vercel.app/",
+        "Uses a homemade AI caller to collect real-time wait time data from restaurants.",
+        "Server side, client side, TTS, STT, LLM, and more!"
+      ]
+    },
+    {
+      title: "AI Prank Caller",
+      subtitle: "Uses LLMs, TTS, and STT to make prank calls",
+      bullets: [
+        "Uses a homemade AI caller.",
+        "Server side, client side, TTS, STT, LLM, and more!"
+      ]
+    },
+    {
+      title: "Local Audiobook Generation",
+      subtitle: "Used TTS and Python",
+      bullets: [
+        "Used Python to regex chapters and sections.",
+        "Used Kokoro TTS to locally generate audiofiles."
       ]
     }
   ],
