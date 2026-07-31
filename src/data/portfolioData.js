@@ -38,7 +38,8 @@ const data = {
         "Dean's List (Fall 2024)",
         "Dean's List (Spring 2025)",
         "Outstanding Student Award - CEED (2024-25)",
-        "Dean's List (Fall 2025)"
+        "Dean's List (Fall 2025)",
+        "Dean's List (Spring 2026)"
       ]
     },
     {
@@ -358,6 +359,16 @@ const data = {
         },
       ]
       }
+    },
+    {
+      title: "Transfer Credits",
+      subtitle: "Transfer Credits & Summer Classes",
+      date: "",
+      description: "",
+      bullets: ["CMSC 203 - Discrete Strucutres - UMBC (3 Credits)","HIST 102 - American History since 1877 - UMBC (3 Credits)", "CMSC 341 - Data Structures & Algorithms - UMBC (3 credits)", "HIST 115 - World History 1 - UMGC (3 credits)", "CSMC 330 - Advanced Programming Languages - UMGC (3 credits)", "MATH 2085 - Linear Algebra - LSU Baton Rouge (3 credits)"],
+      details: {
+        bullets: []
+      }
     }
     // Add more academic items below following the same structure.
   ],
@@ -611,7 +622,8 @@ academic_projects: [
       title: "Web Analytics",
       subtitle: "",
       bullets: [
-        "Implemented web analytics for this site!"
+        "Implemented web analytics for this site!",
+        "... and many others."
       ]
     }
   ],
@@ -677,6 +689,16 @@ academic_projects: [
         "Used Python to regex chapters and sections.",
         "Used Kokoro TTS to locally generate audiofiles."
       ]
+    },
+    {
+      title: "Digital Umpire",
+      subtitle: "Used RAG & LLMs to Answer Baseball Questions",
+      bullets: [
+        "Used RAG on large corpus of baseball rules.",
+        "Used embeddings on input query and rules.",
+        "Used database to store and retrieve rules.",
+        "Used LLMs to turn relevant rules into human readable answer to a user query."
+      ]
     }
   ],
 
@@ -694,6 +716,16 @@ academic_projects: [
       ]
     },
     {
+      title: "Eagle Scout Project",
+      subtitle: "",
+      bullets: [
+        "Construction of Baseball Bullpen for Chapelgate Christian Academy",
+        "Procurment of Funds for Project Exceeing $600",
+        "Procurment of Donated Materials",
+        "Organized over 240 hours of Work"
+      ]
+    },
+    {
       title: "Awards",
       subtitle: "",
       bullets: [
@@ -705,6 +737,26 @@ academic_projects: [
         "National Outdoor Award Hiking (2020)", 
         "National Outdoor Award Camping (2021)", 
         "Eagle Scout (2023)"
+      ]
+    },
+    {
+      title: "Merit Badges",
+      subtitle: "",
+      bullets: [
+        "Archery (2022)   |   Camping (2018)  |   Canoeing (2018)", 
+        "Citizenship in the Community (2021)", 
+        "Citizenship in the Nation (2021)",
+        "Citizenship in Society (2022)",
+        "Citizenship in the World (2018)",
+        "Climbing (2019)    |   Communication (2021)    |   Cooking (2020)",
+        "Empergency Preparedness (2023)   |   Environmental Science (2021)",
+        "Family Life (2020)   |   First Aid (2019)    |   Geocaching (2020)",
+        "Hiking (2020)    |   Indian Lore (2019)    |   Kayaking (2019)",
+        "Motorboading (2022)    |   Nature (2017)   |   Personal Fitness (2020)",
+        "Personal Management (2021)   |   Pioneering (2021)",
+        "Rifle Shooting (2018)    |   Rowing (2022)",
+        "Shotgun Shooting (2021)    |   Swimming (2017)   |   Water Sports (2022)",
+        "Wilderness Survival (2019)   |   Wood Carving (2020)",
       ]
     }
   ],
@@ -739,6 +791,26 @@ academic_projects: [
 
   workexperience: [
     {
+      title: "National Security Agency (NSA) Research Internship",
+      subtitle: "Summer 2026",
+      bullets: [
+        "Top Secret (TS) Security Clearence with Full Scope Polygraph",
+        "Research Directorate 4 | Network Research | Qunatum Team",
+        "Research in Machine Learning and Optical Physics",
+        "Created ML clasifiers to autonomously predict OTDR traces",
+        "Contructed Autnonmous AI Agents & Agentic Tools"
+      ]
+    },
+    {
+      title: "Handshake AI Fellowship",
+      subtitle: "2025",
+      bullets: [
+        "Completed AI projects, data annotation, and ML implementation.",
+        "Project Spectra",
+        "Project Alexandria"
+      ]
+    },
+    {
       title: "MYSO Umpire",
       subtitle: "2019 - Present",
       bullets: [
@@ -766,19 +838,19 @@ academic_projects: [
       ]
     },
     {
+      title: "MAC Umpire",
+      subtitle: "2026 - Present",
+      bullets: [
+        "Umpire for Mid-Attlantic Collegiate",
+        "Responsible for enforcement and officiation of safety, sportsmanship, and the rules of NFHS baseball for players in showcase tournements.",
+        "Complete 2-Man MAC Clinic."
+      ]
+    },
+    {
       title: "Baltimore Sailing Center",
       subtitle: "Summer 2021 - 2022",
       bullets: [
         "Instructed students aged eight to sixteen for two summers on common outdoor first aid and environmental practices in addition to various fishing and fly fishing skills."
-      ]
-    },
-    {
-      title: "Handshake AI Fellowship",
-      subtitle: "2025",
-      bullets: [
-        "Completed AI projects, data annotation, and ML implementation.",
-        "Project Spectra",
-        "Project Alexandria"
       ]
     }
   ]

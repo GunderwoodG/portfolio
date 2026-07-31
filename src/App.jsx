@@ -35,7 +35,7 @@ export default function App() {
                         Junior at Virginia Tech (Graduating One Year Early - 2027)<br />
                         Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
                         Minor: Physics, Computer Science<br />
-                        GPA: 3.8 <br />
+                        GPA: 3.71 <br />
                       </p>
                       <p className="mt-6 text-sm text-gray-300 italic">
                         Welcome — this portfolio documents academic achievements, projects, and extracurricular activities. <br />
@@ -43,7 +43,7 @@ export default function App() {
                       </p>
                       <div className="mt-6 flex gap-4">
                         <a href="#academic" className="inline-block btn-primary">Academics</a>
-                        <a href="#extracurricular" className="inline-block btn-outline">Extracurricular</a>
+                        <a href="#personal_projects" className="inline-block btn-outline">Personal Projects</a>
                         <a href="#workexperience" className="inline-block btn-outline">Work Experience</a>
                         <a href="#bsa" className="inline-block btn-outline">BSA</a>
                       </div>
@@ -60,14 +60,14 @@ export default function App() {
 
                 {/* Dynamic Sections */}
                 {/* <Section id="notable_courses" title="Notable Courses" items={data.notable_courses} /> */}
+                <Section id="workexperience" title="Work Experience" items={data.workexperience} />
                 <Section id="academic" title="Academics" items={data.academic} />
                 <Section id="academic_projects" title="Academic Projects" items={data.academic_projects} />
                 <Section id="extracurricular" title="Extracurricular" items={data.extracurricular} />
-                <Section id="workexperience" title="Work Experience" items={data.workexperience} />
-                <Section id="skills" title="Notable Skills & Activities" items={data.skills} />
-                <Section id="bsa" title="BSA" items={data.bsa} />
                 <Section id="personal_projects" title="Personal Projects" items={data.personal_projects} />
+                <Section id="bsa" title="BSA" items={data.bsa} />
                 <Section id="athletics" title="Athletics" items={data.athletics} />
+                <Section id="skills" title="Notable Skills & Activities" items={data.skills} />
                 
 
                 <Footer />
