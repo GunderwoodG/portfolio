@@ -32,7 +32,7 @@ export default function App() {
                     <div className="md:col-span-2">
                       <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Garrison Underwood</h1>
                       <p className="mt-2 text-lg text-gray-300">
-                        Junior at Virginia Tech (Graduating One Year Early - 2027)<br />
+                        Senior at Virginia Tech (Graduating Spring 2027)<br />
                         Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
                         Minor: Physics, Computer Science<br />
                         GPA: 3.71 <br />
@@ -113,7 +113,7 @@ export default function App() {
 //             <div className="md:col-span-2">
 //               <h1 className="text-4xl md:text-5xl font-semibold tracking-tight">Garrison Underwood</h1>
 //               <p className="mt-2 text-lg text-gray-300">
-//                 Junior at Virginia Tech (Graduating One Year Early)<br />
+//                 Senior at Virginia Tech (Graduating Spring 2027)<br />
 //                 Double Major: Electrical Engineering (Controls, Robotics, Autonomy) & Computer Engineering (Machine Learning)<br />
 //                 Minor: Computer Science<br />
 //                 GPA: 3.88 <br />
