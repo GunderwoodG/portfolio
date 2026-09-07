@@ -699,6 +699,25 @@ academic_projects: [
         "Used database to store and retrieve rules.",
         "Used LLMs to turn relevant rules into human readable answer to a user query."
       ]
+    },
+    {
+      title: "Fiscality",
+      subtitle: "Personal Finance Agent",
+      description: "A personal finance agent that ingests bank and investment statements into a single interface for understanding and planning around your finances.",
+      bullets: [
+        "View how money is distributed across accounts and savings.",
+        "Track expenses and support automated tax filing.",
+        "Create scenario-based financial plans using deterministic account values and spending habits."
+      ]
+    },
+    {
+      title: "ChessBench",
+      subtitle: "Homemade LLM Chess Benchmarking Suite",
+      description: "A benchmarking suite for testing large language models on chess-related tasks, starting with notation analysis.",
+      bullets: [
+        "NotationTest is the first test in the suite.",
+        "Analyzes which chess notation formats work best for LLMs."
+      ]
     }
   ],
 
